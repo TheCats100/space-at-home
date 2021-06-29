@@ -1,0 +1,46 @@
+.OpenCard{
+  background-color: black;
+}
+
+.block{
+  display: flex;
+  justify-content: baseline;
+  justify-content: space-around;
+  padding: 10px 10rem 0px 5rem;
+  background-color: black;
+  margin-top: 5rem;
+} 
+
+.Circle{
+  border-radius: 50%;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
+.Earth{
+max-width: 30rem ;
+max-height: 30rem;
+}
+.CategoriesTitle{
+  color: white;
+  margin-top: 2rem;
+  max-width: 25rem;
+  font-size: large;
+}
+
+.iframe{
+  background-color: black;
+  border-radius: 15px;
+}
+.buttonDiv{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.buttonPlanet{
+  border-radius: 3px;
+  background-color: rgb(46, 41, 41);
+  color: rgb(185, 188, 194);
+  border-color: black;
+}

@@ -1,0 +1,38 @@
+.footerBlock {
+    background: rgb(10, 20, 46);
+    padding: 1em;
+}
+
+.titleFooter {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.copyrightFooter {
+    text-align: center;
+}
+
+.explanationFooter {
+    text-align: center;
+}
+
+@media screen and (min-width: 851px){
+
+    .createdFooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .createdFooter a:link {
+        color: white;
+    }
+    
+    .createdFooter a:visited {
+        color: white;
+    }
+    
+
+
+}

@@ -1,0 +1,27 @@
+.instructionsBlock {
+    color: white;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.instructionsText{
+  font-family: 'Suravaram', serif;
+  font-size: 1.8rem;
+  text-align: center; 
+}
+
+@media screen and (max-width: 812px) {
+
+  .instructionsText {
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media screen and (max-width: 400px){
+
+  .instructionsText{
+    margin-top: 2rem;
+  }
+
+}

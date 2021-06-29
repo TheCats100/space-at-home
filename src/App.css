@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron&display=swap");
+
+.swal2-html-container{
+  color:white;
+}
+
+#swal2-title{
+  color:white;
+}
+
+.pageBlock{
+  color: white;
+  background-image: url('https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg');
+  background-attachment: fixed;
+  background-size: cover ;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.firstTitle{
+  text-align: center;
+  font-family: 'Audiowide';
+  font-size: 7rem;
+  margin-top: 15rem;
+  margin-bottom: 9rem;
+}
+
+.FavRouteDiv{
+  text-align: right;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+}
+
+.FavRoute{
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: rgb(240, 240, 240);
+  color: rgb(42, 42, 42);
+  padding: 0.4rem;
+  border-radius: 11px;
+  border: 2px solid;
+  border-color: rgb(109, 143, 238);
+}
+
+.FavRoute:hover{
+  color: grey;
+  text-decoration: none;
+  background-color: black;
+}
+
+.backRouteDiv{
+  margin-bottom: 2rem;
+}
+
+.backRoute{
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: rgb(240, 240, 240);
+  color: rgb(42, 42, 42);
+  padding: 0.4rem;
+  border-radius: 11px;
+  border: 2px solid;
+  border-color: rgb(109, 143, 238);
+}
+
+.backRoute:hover{
+  color: grey;
+  text-decoration: none;
+  background-color: black;
+}
+
+
+@media screen and (max-width: 851px){
+
+  .firstTitle{
+    display: none;
+  }
+
+  .FavRouteDiv {
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+}

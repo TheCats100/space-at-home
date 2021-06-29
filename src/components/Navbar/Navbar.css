@@ -1,0 +1,22 @@
+.linkNavBar {
+  color: white;
+}
+
+.linkNavBar:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.linkTitleNavBar {
+  color: white;
+}
+
+.linkTitleNavBar:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.navbarBlock{
+  background-color: #2B3259;
+  color: white;
+}
